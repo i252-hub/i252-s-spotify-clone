@@ -2,8 +2,10 @@
 
 export default {
   content: [
-    "./main.html",  
-    "./src/**/*.{js,ts,jsx,tsx}", 
+   "./index.html",
+  "./src/**/*.{js,ts,jsx,tsx}",
+  "./components/**/*.{js,ts,jsx,tsx}",
+   "./pages/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
     extend: {
@@ -33,6 +35,9 @@ export default {
       },
       fontFamily: {
         circular: ["Circular Std", "sans-serif"],
+      },
+      backgroundImage: { 
+        'linearGrad': 'linear-gradient(to right, #3333A3 0%, #121212 100%)',
       },
     },
   },
